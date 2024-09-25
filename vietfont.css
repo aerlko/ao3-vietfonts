@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+  /*
+    -----------------TITLE FONT-----------------
+  This is the font for the titles, not for the body of text. 
+  If you want to change it remember to provide fallback fonts 
+  (something like 'serif' or 'sans-serif', separated by a comma)
+  */
+  font-family: Palatino, "Palatino Linotype", serif;
+  font-weight: normal;
+}
+ 
+body,
+input,
+.toggled form,
+.dynamic form,
+.secondary,
+.dropdown,
+.content,
+button,
+blockquote,
+.filters dt,
+.filters dd,
+.filters input[type=submit],
+.filters .expander,
+.bookmark .user .meta,
+.datetime,
+textarea,
+a.work,
+span.symbol,
+.splash .news .meta,
+select {
+   /*
+  -----------------MAIN FONT-----------------
+  This is the font for the entire body of text. If you need to change it please do it here
+  Please also remember to provide fallback fonts 
+  (something like 'serif' or 'sans-serif', separated by a comma)
+  */
+  font-family: Calibri, system-ui, sans-serif;
+  font-size: 110%;
+}
